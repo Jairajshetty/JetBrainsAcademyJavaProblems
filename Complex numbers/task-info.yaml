@@ -2,15 +2,12 @@ type: code
 files:
 - name: src/Main.java
   visible: true
-  text: |-
-    class Complex {
-
-        double real;
-        double image;
-
-        // write methods here
-    }
+  text: // write the class Complex here
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2952
+feedback_link: https://hyperskill.org/learn/step/2940
 status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2940">JetBrains
+    Academy</a></html>
+  time: Tue, 14 Jul 2020 04:25:24 UTC
 record: -1
