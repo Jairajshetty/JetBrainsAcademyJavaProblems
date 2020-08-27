@@ -1,17 +1,22 @@
-import java.util.Scanner;
+import java.util.*;
 class Main {
     public static void main(String[] args) {
         // put your code here
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
+        int count=0;
         int num=scanner.nextInt();
-        int result=0;
-        while(num!=0){
-            int inum=scanner.nextInt();
-            if(inum%4==0&&inum>result){
-                result=inum;
+        int start=1;
+        boolean truth=true;
+        while (truth){
+            for(int i=0;i<start;i++){
+                if(count<num){
+                    System.out.print(start+" ");
+                    count++;
+                }else{
+                    truth=false;
+                }
             }
-            num--;
+            start++;
         }
-        System.out.println(result);
     }
 }
